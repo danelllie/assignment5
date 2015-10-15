@@ -1,0 +1,190 @@
+
+/*
+	
+	Author: Kevin Wood
+	Date:   09.15.15
+*/ 
+
+
+/* Body styles  */
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 98%;
+	max-width: 800px;
+	min-width: 250px;
+	background-color: white; 
+	font-family: NobileRegular, Verdana, Geneva, sans-serif; 
+	line-height: 1.8em;
+}
+
+.main-content{
+	
+}
+
+header, footer {
+	margin: 0px auto;
+}
+
+#page-header{
+	width:100%;
+}
+
+nav {
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+section {
+	width: 590px;
+	float: left;
+}
+
+section img {
+	float:  right;
+	margin: 15px;
+}
+
+address {
+	clear: both;
+	width: 100%;
+}
+
+
+/*  Clock styles, from the Async4_Tutorial2 files, New Year's Countdown clock
+*/
+
+#clock {
+	float:left; 
+	top: 5px; 
+	left: 5px; 
+	width: 155px;
+	height: 180px; 
+	background-color: rgb(50, 153, 254);
+	border: 3px inset white; text-align: center;
+    color: rgb(247, 240, 224); font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#clock h4, #countdown h4 {
+	background-color: black;
+	text-align: center; 
+	margin-bottom: 0px; 
+	letter-spacing: 4; 
+    font-variant: small-caps; 
+    color: yellow; 
+    width: 100%; 
+    margin-top: 0px
+}
+
+#clock p, #countdown p{
+	color: rgb(247, 240, 224); 
+	font-weight: bold; 
+	letter-spacing: 1.5; 
+    margin-top: 2px
+}
+
+#clock img{
+	margin: 2px
+}
+
+#clock input {
+	font-size: 12pt; 
+	text-align: center; 
+	background-color: rgb(247, 240, 224); 
+    color: rgb(50, 153, 254); font-weight: bold
+}
+
+#logo {
+	float:left; 
+	top: 5px; 
+	left: 165px; 
+	width: 390px; 
+    height: 180px
+}
+
+#countdown {
+	float:left; 
+	top: 5px; 
+	left: 560px; 
+	width: 155px; 
+    height: 180px; 
+    background-color: rgb(50, 153, 254); 
+    border: 3px inset white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#countdown input {
+	font-size: 12pt; 
+	text-align: right; 
+	background-color: rgb(247, 240, 224); 
+    color: rgb(50, 153, 254); font-weight: bold; margin: 2px
+ }
+ 
+ 
+ 
+ /* Heading styles */ 
+
+section h1 { 
+	background-color: rgb(125, 186, 240); 
+	color: white; 
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+	font-size: 1.7em;
+}
+
+h2 {
+	background-color: rgb(0, 165, 0); 
+	color: white; 
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 0.4em;
+	line-height: 1.8em;
+	text-indent: 1em;
+}
+
+/* Navigation list styles */ 
+
+nav ul { 
+	background-color: rgb(125, 186, 240); 
+	line-height: 3.5em; 
+	list-style-type: none; 
+	padding-left: 0.5em;
+}
+
+nav ul li:hover { 
+	background-color: rgb(83, 142, 213); 
+}
+
+nav ul li:first-of-type { 
+	text-transform: uppercase; 
+}
+
+nav ul li a { 
+	color: white; 
+	text-decoration: none; 
+} 
+
+
+/* Section styles */
+
+section p.closing { 
+	color: rgb(0, 165, 0); 
+	text-align: right; 
+}
+
+section h2+ul { 
+	list-style-image: url(arrow.png); 
+}
+
+/* Footer styles */ 
+
+footer address { 
+	background-color: rgb(55, 102, 55); 
+	color: white; 
+	color: rgba(255, 255, 255, 0.8); 
+	font: normal small-caps 0.8em/4em 'Times New Roman', Times, serif; 
+	text-align: center; 
+}
